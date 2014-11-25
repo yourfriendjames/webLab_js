@@ -1,0 +1,57 @@
+body {
+    font-family: cabin;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: lightgray;
+}
+
+tab-wrapper{
+    border: 1px solid black;
+}
+
+#tabs li {
+    display: inline;
+    float: left;
+    padding: 8px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 6px 6px 1px 1px;
+    margin-top: 0px;
+    background-color: white;
+    border-bottom: none;
+}
+
+user agent stylesheetli {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.tab1 li {
+    border: 1px solid black;
+
+
+}
+.panels {
+    padding: 35px 15px;}
+
+.panel1 {
+    border: 1px solid black;
+    background-color: white;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+    font-size: 12.5pt;
+    margin-bottom: 10px;
+}
+.panel2 {
+    border: 1px solid black;
+    background-color: white;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+    font-size: 12.5pt;
+    margin-bottom: 10px;
+}

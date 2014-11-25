@@ -1,7 +1,4 @@
-/**
- * Created by jamessondag on 10/16/14.
- */
-function findLongestWord(str){
+/*function findLongestWord(str){
     var longest = "";
     var words = str.trim().split(" ");
     for (var longestWord = 0; longestWord < word.length; i++){
@@ -13,3 +10,14 @@ return longest
 }
 
 console.log(findLongestWord("hello my name is James Sondag")
+    */
+
+//Collatz//
+
+
+ var counter = 10;
+ while (counter) {
+ console.log("Hello World");
+ console.log("Hi")
+ counter = counter - 1;
+ }

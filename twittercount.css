@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background: whitesmoke;
+    font-family: cabin;
+}
+
+#header {
+    font-size: 16px;
+    text-align: center;
+    background: #353237;
+    color: white;
+    box-shadow: inset rgba(0,0,0,0.5) 0 3px 7px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 40px;
+    padding-bottom: 15px;
+
+}
+
+#midcontent{
+    margin-top: 90px;
+}
+
+#boxcontainer{
+    margin-top: 90px;
+    float: right;
+}
+
+#expandybox {
+    margin: auto 40%;
+    height: 278px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: lightblue;
+    float: left;
+    margin-top: 90px;
+}
+
+span.warn {
+    color: red;
+}
+.widget-toggle {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 18px; height: 9px;
+    margin-top: 15px;
+    margin-left: 13px;
+    background: url(red) no-repeat 0 -18px;
+}
+
+.widget-toggle.active {
+    background: url(blue) no-repeat 0 0;
+}

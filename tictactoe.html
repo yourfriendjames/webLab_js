@@ -1,10 +1,154 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+        <style>
+
+        body {
+            margin: 0;
+            background: darkred;
+            font-family: cabin;
+
+        }
+        .header {
+            font-size: 16px;
+            text-align: center;
+            background: #353237;
+            color: white;
+            padding-bottom: 15px;
+            margin: auto 0 5%;
+            box-shadow: inset rgba(0,0,0,0.5) 0 3px 7px;
+            top: 0;
+            position: absolute;
+            min-width: 100%;
+            height: 50px;
+
+        }
+
+        .grid-wrapper {
+            align-content: center;
+            width: 330px;
+            background-color: darkred;
+            min-height: 100%;
+            height: auto;
+            margin: 10% auto;
+        }
+
+        .grid{
+        margin-top: 10%;
+        }
+
+        td {
+        font-size: 62px;
+        border-radius: 10px;
+        background-color: #353237;
+        border: 2px darkred;
+        color: white;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        box-shadow: inset rgba(0,0,0,0.5) 0 3px 7px;
+
+
+
+        }
+
+        .top-three{
+
+        }
+        .one{
+            border-top: none;
+            border-left: none;
+
+        }
+
+        .two{
+            border-top: none;
+        }
+
+        .three{
+            border-top: none;
+            border-right: none;
+        }
+
+        .four{
+            border-left: none;
+        }
+
+        .five{
+            text-align: center;
+        }
+
+        .six{
+            border-right: none;
+        }
+
+        .seven{
+            border-bottom: none;
+            border-left: none;
+        }
+
+        .eight{
+            border-bottom: none;
+        }
+
+        .nine{
+            border-bottom: none;
+            border-right: none;
+        }
+
+        .footer{
+            bottom: 0;
+            border-radius: 0;
+            box-shadow: inset rgba(0,0,0,0.5) 0 3px 7px;
+            background: #353237;
+            position: absolute;
+            min-width: 100%;
+            min-height: 50px;
+        }
+
+        </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Tic | Tac | Toe</h1>
+    </div>
+    <div class="grid-wrapper">
+        <table class="grid">
+            <tr class="top-three">
+                <td class="one">x</td>
+                <td class="two">o</td>
+                <td class="three">x</td>
+            </tr>
+            <tr class="middle-three">
+                <td class="four">o</td>
+                <td class="five">x</td>
+                <td class="six">o</td>
+            </tr>
+            <tr class="bottom-three">
+                <td class="seven">x</td>
+                <td class="eight">o</td>
+                <td class="nine">x</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <tbody>
+            <tr>
+                <td>
+                    <a href="http://www.google.com"_target=_blank>google</a>
+                </td>
+                <td>
+                    <a href="http://www.Facebook.com"_target=_blank>facebook</a>
+                </td>
+                <td>
+                    <a href="http://www.twitter.com"_target=_blank>twitter</a>
+                </td>
+            </tr>
+        </tbody>
+    </div>
 
+<!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>-->
+<!--<script type="text/javascript" src="nathan_tabs.js"></script>-->
 </body>
 </html>

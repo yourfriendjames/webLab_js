@@ -1,10 +1,117 @@
-<!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+    <style>
+
+        body {
+            background: #ccc;
+            font-family: cabin;
+
+        }
+
+        .tab-wrapper {
+            width: 75%;
+            margin: auto;
+        }
+
+        .tab-wrapper.pretty {
+            width: 75%;
+        }
+
+        ul.tabs {
+            display: block;
+            height: 30px;
+        }
+
+        ul.tabs li {
+            float: left;
+            margin-right: 2px;
+            border: 1px solid black;
+            padding: 4px;
+            margin-top: 18px;
+            background: #ccc;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            cursor: pointer;
+            background-color: lightcyan;
+        }
+
+        .pretty ul.tabs li {
+            float: left;
+            margin-right: 2px;
+            border: 1px solid black;
+            padding: 4px;
+            margin-top: 18px;
+            background: #ccc;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            cursor: pointer;
+            background-color: lightcyan;
+        }
+
+        ul.tabs li.active {
+            background: white;
+            border-bottom: 1px solid white;
+        }
+
+        .tab-wrapper .panels {
+            border: 1px solid black;
+            min-height: 100px;
+            background: white;
+            border-radius: 6px;
+        }
+
+        .tab-wrapper .panels .panel {
+            display: none;
+            padding: 24px;
+        }
+
+        .tab-wrapper .panels .panel.active {
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
 
+<div class="tab-wrapper">
+    <ul class="tabs">
+        <li>Tab 1</li>
+        <li class="active">Tab 2</li>
+        <li>Tab 3</li>
+    </ul>
+    <div class="panels">
+        <div class="panel">
+            <p>Panel 1</p>
+        </div>
+        <div class="panel active">
+            <p>Panel 2</p>
+        </div>
+        <div class="panel">
+            <p>Panel 3</p>
+        </div>
+    </div>
+</div>
+
+<div class="tab-wrapper pretty">
+    <ul class="tabs">
+        <li class="active">Tab 1</li>
+        <li>Tab 2</li>
+        <li>Tab 3</li>
+    </ul>
+    <div class="panels">
+        <div class="panel active">
+            <p>Panel 1</p>
+        </div>
+        <div class="panel">
+            <p>Panel 2</p>
+        </div>
+        <div class="panel">
+            <p>Panel 3</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="nathan_tabs.js"></script>
 </body>
 </html>
